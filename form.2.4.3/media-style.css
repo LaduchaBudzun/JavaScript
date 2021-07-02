@@ -1,0 +1,21 @@
+@media screen and (max-width:1000px){
+    .d-img{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+    }
+    .form{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container{
+        max-width: 300px;
+    }
+}
+    
