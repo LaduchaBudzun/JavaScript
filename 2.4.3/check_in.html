@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <title>Регистрация на конференцию</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(81479179, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/81479179" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZFJPLCGER"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JZFJPLCGER');
+    </script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-style.css">
+</head>
+
+<body>
+    <div class="container login">
+        <div class="form">
+            <form id="app" class="form-data" autocomplete="off">
+                <div class="logo-div">
+                    <a class="logo" href="http://domus.eco/" target="_blank"></a>
+                    <div class="l-title">Регистрация на конференцию</div>
+                    <span class="sub-title">19-20 августа 2021</span>
+                    <p class="sub-title">ст. Кущевская</p>
+                    <p class="sub-title">ул. Гагарина 65 А</p>
+                    <p class="sub-title">Завод "Новопласт-Юг"</p>
+                </div>
+                <input type="text" class="inputs name" placeholder="ФИО" name="name" required>
+                <input type="text" class="inputs company" placeholder="Компания" name="company" required>
+                <input type="text" class="inputs city" placeholder="Город" name="city" required>
+                <input type="text" class="inputs number" placeholder="Тел: (918)-123-45-67" name="number" required>
+                <input type="email" class="inputs email" placeholder="email" name="email" required>
+
+
+                <div class="div-err"></div>
+
+
+                <div class="agreement">
+                    <input id="consent" type="checkbox" class="checkbox">
+                    <label for=" consent"> Согласен(а) на обработку персональных данных</label>
+                </div>
+
+                <div class="btn-div">
+                    <button id='btn-regNow' onclick="registerNow()" class="btn-reg" type="button"
+                        formtarget="_blank">Зарегистрироваться</button>
+                </div>
+
+            </form>
+
+
+
+
+
+        </div>
+        <div class="d-img">
+            <img src="img/form1.jpeg" alt="" class="img">
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/imask"></script>
+
+
+
+    <script defer src="imask.js"></script>
+    <script defer src="script.js"></script>
+
+</body>
+
+</html>
